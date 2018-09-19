@@ -14,7 +14,7 @@ from aioapp.error import PrepareError
 from aioapp.misc import mask_url_pwd, async_call
 from aioapp.tracer import (Span, CLIENT, SERVER, SPAN_TYPE, SPAN_KIND)
 
-__version__ = '0.0.1a2'
+__version__ = '0.0.1b1'
 
 SPAN_TYPE_AMQP = 'amqp'
 SPAN_KIND_AMQP_OUT = 'out'
