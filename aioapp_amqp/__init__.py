@@ -100,7 +100,7 @@ class Channel:
             span.metrics_tag(SPAN_TYPE, SPAN_TYPE_AMQP)
             span.metrics_tag(SPAN_KIND, SPAN_KIND_AMQP_OUT)
             if propagate_trace:
-                headers = ctx.make_headers()
+                headers = span.make_headers()
                 properties = properties or {}
                 if 'headers' not in properties:
                     properties['headers'] = {}
