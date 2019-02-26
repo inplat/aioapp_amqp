@@ -1,2 +1,2 @@
-aioapp==0.0.2b7
+aioapp==0.0.2b8
 aioamqp==0.12.0
